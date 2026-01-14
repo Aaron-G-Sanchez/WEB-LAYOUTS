@@ -1,0 +1,13 @@
+---
+import './TemplateCard.scss'
+
+interface Props {
+  templateTitle: string
+}
+
+const { templateTitle } = Astro.props
+---
+
+<div class='template-card'>
+  <p>{templateTitle}</p>
+</div>
