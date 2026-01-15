@@ -3,15 +3,18 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "astro": "astro",
     "build": "astro build",
+    "dev": "astro dev",
     "preview": "astro preview",
-    "astro": "astro"
+    "test": "vitest"
   },
   "dependencies": {
     "astro": "^5.16.9"
   },
   "devDependencies": {
-    "sass": "^1.97.2"
+    "@types/jest": "^30.0.0",
+    "sass": "^1.97.2",
+    "vitest": "^4.0.17"
   }
 }
