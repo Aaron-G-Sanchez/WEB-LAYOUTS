@@ -3,15 +3,15 @@ import TemplateCard from './TemplateCard.astro'
 
 describe('Template Card:', () => {
   test('should render card title', async () => {
-    const CONTAINER_CONTENT = 'Template title'
+    const TEMPLATE_TITLE = 'Test Title'
 
     const container = await AstroContainer.create()
     const result = await container.renderToString(TemplateCard, {
       props: {
-        templateTitle: CONTAINER_CONTENT
+        templateTitle: TEMPLATE_TITLE
       }
     })
 
-    expect(result).toContain(CONTAINER_CONTENT)
+    expect(result).toContain(TEMPLATE_TITLE)
   })
 })
