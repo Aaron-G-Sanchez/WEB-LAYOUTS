@@ -1,5 +1,6 @@
 ---
 import './Base.scss';
+import { Font } from 'astro:assets';
 ---
 
 <!doctype html>
@@ -14,6 +15,7 @@ import './Base.scss';
       name='generator'
       content={Astro.generator}
     />
+    <Font cssVariable='--font-inter-tight' />
     <title>WEB LAYOUTS</title>
   </head>
   <body>
