@@ -10,7 +10,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "astro": "^5.16.9"
+    "astro": "6.1.10"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
