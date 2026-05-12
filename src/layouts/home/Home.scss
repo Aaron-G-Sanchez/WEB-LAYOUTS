@@ -4,19 +4,16 @@ main {
   flex-direction: column;
 }
 
-.title-container {
-  flex-grow: .2;
-  place-items: center;
-  width: 100%;
+.hero {
+  min-height: 100%;
+  background-image: url('https://imagedelivery.net/G_0sUH-PwKJ1pgScB7rZ-g/822af03a-81e0-433c-210f-4e6838e84e00/large');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
 }
 
-.template-gallery {
-  flex-grow: 2;
-  justify-items: center;
-  width: 100%;
-}
-
-
-h1 {
-  font-size: 3em;
+.about {
+  min-height: 100%;
+  display: flex;
 }
